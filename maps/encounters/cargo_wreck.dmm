@@ -1,0 +1,389 @@
+"aa" = (/turf/space,/area)
+"ab" = (/obj/machinery/light/small{dir = 4},/turf/space,/area/ship/scrap/cargo_wreck/engine)
+"ac" = (/turf/simulated/shuttle/wall{tag = "icon-swall4"; icon_state = "swall4"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"ad" = (/turf/simulated/shuttle/wall{tag = "icon-swall14"; icon_state = "swall14"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"ae" = (/turf/simulated/shuttle/wall{icon_state = "swall12"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"af" = (/turf/simulated/shuttle/wall{icon_state = "swall_s10"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"ag" = (/turf/simulated/floor/plating{icon_state = "warnplate"; dir = 8},/turf/simulated/shuttle/wall{tag = "icon-burst_l (EAST)"; icon_state = "burst_l"; dir = 4},/area/ship/scrap/cargo_wreck/engine)
+"ah" = (/turf/simulated/floor/plating,/obj/structure/window/reinforced{dir = 4},/turf/simulated/shuttle/wall{tag = "icon-heater (WEST)"; icon_state = "heater"; dir = 8},/area/ship/scrap/cargo_wreck/engine)
+"ai" = (/obj/structure/stool,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/engine)
+"aj" = (/obj/machinery/power/port_gen/pacman,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/engine)
+"ak" = (/turf/simulated/shuttle/wall{tag = "icon-swallc3"; icon_state = "swallc3"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"al" = (/obj/structure/disposalpipe/trunk,/obj/structure/disposaloutlet{dir = 1},/turf/space,/area/ship/scrap/cargo_wreck/hangar)
+"am" = (/obj/machinery/light/small{dir = 4},/turf/space,/area/ship/scrap/cargo_wreck/dorm_bay)
+"an" = (/turf/simulated/shuttle/wall{tag = "icon-swall4"; icon_state = "swall4"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"ao" = (/turf/simulated/shuttle/wall{tag = "icon-swall14"; icon_state = "swall14"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"ap" = (/turf/simulated/shuttle/wall{icon_state = "swall12"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"aq" = (/obj/structure/shuttle/window,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"ar" = (/turf/simulated/shuttle/wall{icon_state = "swall_s10"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"as" = (/turf/simulated/floor/plating{icon_state = "warnplate"; dir = 8},/turf/simulated/shuttle/wall{tag = "icon-burst_r (EAST)"; icon_state = "burst_r"; dir = 4},/area/ship/scrap/cargo_wreck/engine)
+"at" = (/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/engine)
+"au" = (/obj/item/weapon/storage/toolbox/mechanical,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/engine)
+"av" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/engine)
+"aw" = (/turf/simulated/shuttle/wall{tag = "icon-swall7"; icon_state = "swall7"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"ax" = (/turf/simulated/shuttle/wall{icon_state = "swall_s6"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"ay" = (/turf/simulated/shuttle/wall{icon_state = "swall12"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"az" = (/obj/structure/shuttle/window,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"aA" = (/obj/structure/disposalpipe/segment,/turf/simulated/shuttle/wall{icon_state = "swall12"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"aB" = (/turf/simulated/shuttle/wall{icon_state = "swall_s10"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"aC" = (/turf/simulated/floor/plating{icon_state = "warnplate"; dir = 8},/turf/simulated/shuttle/wall{tag = "icon-burst_l (EAST)"; icon_state = "burst_l"; dir = 4},/area/ship/scrap/cargo_wreck/dorm_bay)
+"aD" = (/turf/simulated/floor/plating,/obj/structure/window/reinforced{dir = 4},/turf/simulated/shuttle/wall{tag = "icon-heater (WEST)"; icon_state = "heater"; dir = 8},/area/ship/scrap/cargo_wreck/dorm_bay)
+"aE" = (/obj/structure/stool/bed/chair{dir = 4},/obj/effect/decal/remains/human,/obj/item/clothing/mask/muzzle,/obj/item/weapon/handcuffs,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"aF" = (/obj/structure/table,/obj/item/weapon/reagent_containers/food/snacks/spacylibertyduff,/obj/item/weapon/kitchen/utensil/pspoon,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"aG" = (/obj/structure/stool/bed/chair{dir = 8},/obj/effect/decal/remains/human,/obj/item/clothing/mask/muzzle,/obj/item/weapon/handcuffs,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"aH" = (/turf/simulated/shuttle/wall{tag = "icon-swallc3"; icon_state = "swallc3"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"aI" = (/turf/simulated/shuttle/wall{tag = "icon-swallc2"; icon_state = "swallc2"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"aJ" = (/turf/simulated/shuttle/wall{tag = "icon-swall13"; icon_state = "swall13"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"aK" = (/turf/simulated/shuttle/wall{tag = "icon-swall8"; icon_state = "swall8"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"aL" = (/obj/machinery/door/airlock/external,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/engine)
+"aM" = (/turf/simulated/shuttle/wall{tag = "icon-swall14"; icon_state = "swall14"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"aN" = (/turf/simulated/shuttle/wall{icon_state = "swall3"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"aO" = (/obj/structure/closet/secure_closet/freezer,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"aP" = (/obj/machinery/light/small{dir = 1},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"aQ" = (/obj/machinery/washing_machine,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"aR" = (/obj/machinery/light/small{dir = 1},/obj/structure/closet/secure_closet/engineering_electrical,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"aS" = (/obj/structure/closet/secure_closet/engineering_electrical,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"aT" = (/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"aU" = (/obj/structure/closet/secure_closet/courtroom,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"aV" = (/obj/structure/closet/secure_closet/medical1,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"aW" = (/obj/machinery/light/small{dir = 1},/obj/structure/disposalpipe/segment,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"aX" = (/turf/simulated/shuttle/wall{tag = "icon-swall7"; icon_state = "swall7"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"aY" = (/turf/simulated/floor/plating{icon_state = "warnplate"; dir = 8},/turf/simulated/shuttle/wall{tag = "icon-burst_r (EAST)"; icon_state = "burst_r"; dir = 4},/area/ship/scrap/cargo_wreck/dorm_bay)
+"aZ" = (/obj/structure/sink{dir = 8; pixel_x = -11},/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"ba" = (/obj/machinery/light,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bb" = (/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bc" = (/obj/machinery/microwave,/obj/structure/table,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bd" = (/turf/simulated/shuttle/wall{tag = "icon-swall7"; icon_state = "swall7"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"be" = (/turf/simulated/shuttle/wall{tag = "icon-swallc2"; icon_state = "swallc2"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"bf" = (/turf/simulated/shuttle/wall{icon_state = "swall_s10"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"bg" = (/turf/simulated/shuttle/wall{icon_state = "swall3"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"bh" = (/obj/structure/window/reinforced,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/engine)
+"bi" = (/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/engine)
+"bj" = (/turf/simulated/shuttle/wall{tag = "icon-swall13"; icon_state = "swall13"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"bk" = (/turf/simulated/shuttle/wall{tag = "icon-swallc4"; icon_state = "swallc4"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"bl" = (/obj/machinery/washing_machine,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"bm" = (/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"bn" = (/obj/structure/closet/secure_closet/engineering_welding,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"bo" = (/obj/structure/closet/secure_closet/courtroom,/obj/item/clothing/head/collectable/petehat,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"bp" = (/obj/structure/disposalpipe/segment,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"bq" = (/turf/simulated/shuttle/wall{tag = "icon-swallc3"; icon_state = "swallc3"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"br" = (/turf/simulated/shuttle/wall{tag = "icon-swall13"; icon_state = "swall13"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bs" = (/turf/simulated/shuttle/wall{tag = "icon-swall8"; icon_state = "swall8"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bt" = (/obj/machinery/door/airlock/glass,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bu" = (/turf/simulated/shuttle/wall{tag = "icon-swallc2"; icon_state = "swallc2"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bv" = (/turf/simulated/shuttle/wall{tag = "icon-swall11"; icon_state = "swall11"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bw" = (/turf/simulated/shuttle/wall{tag = "icon-swall7"; icon_state = "swall7"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"bx" = (/turf/simulated/shuttle/wall{tag = "icon-swall13"; icon_state = "swall13"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"by" = (/turf/simulated/shuttle/wall{tag = "icon-swall1"; icon_state = "swall1"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"bz" = (/obj/structure/lattice,/turf/space,/area/ship/scrap/cargo_wreck/engine)
+"bA" = (/turf/space,/area/ship/scrap/cargo_wreck/engine)
+"bB" = (/obj/item/weapon/stool,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"bC" = (/obj/structure/closet/crate,/obj/item/weapon/circuitboard/clonepod,/obj/item/weapon/circuitboard/clonescanner,/obj/item/weapon/circuitboard/cloning,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"bD" = (/obj/item/weapon/wrench,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"bE" = (/obj/item/weapon/crowbar/red,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"bF" = (/obj/structure/window/reinforced{dir = 8},/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"bG" = (/obj/machinery/light/small{dir = 1},/obj/machinery/portable_atmospherics/canister/toxins,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"bH" = (/obj/machinery/portable_atmospherics/canister/toxins,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"bI" = (/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/turf/simulated/shuttle/wall{icon_state = "swall_f9"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bJ" = (/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bK" = (/obj/machinery/light{dir = 1},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bL" = (/turf/simulated/shuttle/wall{tag = "icon-swall1"; icon_state = "swall1"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bM" = (/obj/machinery/computer/arcade,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bN" = (/turf/simulated/shuttle/wall{icon_state = "swall3"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"bO" = (/turf/simulated/shuttle/wall{icon_state = "swall3"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"bP" = (/obj/structure/closet/emcloset,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"bQ" = (/turf/simulated/shuttle/wall{tag = "icon-swallc3"; icon_state = "swallc3"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"bR" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/command)
+"bS" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/command)
+"bT" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/command)
+"bU" = (/turf/simulated/shuttle/wall{dir = 1; icon_state = "wall_space"},/area/ship/scrap/cargo_wreck/command)
+"bV" = (/obj/machinery/light{dir = 1},/turf/space,/area/ship/scrap/cargo_wreck/engine)
+"bW" = (/obj/structure/shuttle/window,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"bX" = (/obj/structure/closet/crate,/obj/item/weapon/circuitboard/vendor,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"bY" = (/obj/structure/closet/secure_closet/engineering_welding,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"bZ" = (/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/hangar)
+"ca" = (/turf/simulated/floor/plating{tag = "icon-platingdmg3 (NORTH)"; icon_state = "platingdmg3"; dir = 1},/area/ship/scrap/cargo_wreck/hangar)
+"cb" = (/obj/item/weapon/extinguisher,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"cc" = (/turf/simulated/shuttle/wall{icon_state = "swall12"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"cd" = (/turf/simulated/shuttle/wall{tag = "icon-swallc4"; icon_state = "swallc4"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"ce" = (/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"cf" = (/obj/machinery/light{dir = 1},/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"cg" = (/obj/structure/table/reinforced,/obj/machinery/cell_charger,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"ch" = (/obj/structure/table/reinforced,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"ci" = (/obj/structure/table/reinforced,/obj/structure/table/reinforced,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"cj" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced{dir = 1},/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/command)
+"ck" = (/obj/machinery/light/small{dir = 4},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/engine)
+"cl" = (/turf/simulated/shuttle/wall{tag = "icon-swall1"; icon_state = "swall1"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"cm" = (/obj/structure/sign/vacuum{pixel_x = -32},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"cn" = (/obj/item/weapon/caution/cone,/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"co" = (/obj/machinery/light/small,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"cp" = (/obj/item/stack/rods,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"cq" = (/obj/item/weapon/shard{icon_state = "medium"},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"cr" = (/obj/item/stack/sheet/metal,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/hangar)
+"cs" = (/turf/simulated/floor/plating{tag = "icon-platingdmg2 (NORTH)"; icon_state = "platingdmg2"; dir = 1},/area/ship/scrap/cargo_wreck/hangar)
+"ct" = (/turf/simulated/floor/plating{tag = "icon-platingdmg1 (NORTH)"; icon_state = "platingdmg1"; dir = 1},/area/ship/scrap/cargo_wreck/hangar)
+"cu" = (/obj/machinery/light/small,/turf/simulated/floor/plating{tag = "icon-platingdmg1 (NORTH)"; icon_state = "platingdmg1"; dir = 1},/area/ship/scrap/cargo_wreck/hangar)
+"cv" = (/obj/structure/disposalpipe/segment{dir = 1; icon_state = "pipe-c"},/obj/structure/closet/secure_closet/medical1,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"cw" = (/obj/machinery/door/window{tag = "icon-right (WEST)"; icon_state = "right"; dir = 8},/obj/structure/disposalpipe/segment{dir = 2; icon_state = "pipe-c"},/turf/simulated/shuttle/floor{tag = "icon-floor2"; icon_state = "floor2"},/area/ship/scrap/cargo_wreck/hangar)
+"cx" = (/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/turf/simulated/shuttle/wall{tag = "icon-swall_f6"; icon_state = "swall_f6"; dir = 2},/area/ship/scrap/cargo_wreck/dorm)
+"cy" = (/turf/simulated/shuttle/wall{icon_state = "swall12"; dir = 2},/area/ship/scrap/cargo_wreck/dorm)
+"cz" = (/turf/simulated/shuttle/wall{tag = "icon-swallc1"; icon_state = "swallc1"; dir = 2},/area/ship/scrap/cargo_wreck/dorm)
+"cA" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"cB" = (/obj/machinery/door/airlock/glass,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/command)
+"cC" = (/obj/machinery/power/apc/worn_out{dir = 1; name = "North APC"; pixel_y = 24},/obj/item/stack/cable_coil,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"cD" = (/obj/structure/table/reinforced,/obj/item/weapon/tank/air,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"cE" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8},/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/command)
+"cF" = (/obj/item/weapon/caution,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/engine)
+"cG" = (/obj/machinery/door/airlock/external{name = "Hangar"},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"cH" = (/turf/simulated/shuttle/wall,/area/ship/scrap/cargo_wreck/hangar)
+"cI" = (/turf/simulated/mineral,/area/ship/scrap/cargo_wreck/hangar)
+"cJ" = (/obj/structure/window/reinforced{dir = 1},/obj/machinery/disposal,/obj/structure/disposalpipe/trunk{dir = 1},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"cK" = (/obj/structure/window/reinforced{dir = 1},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"cL" = (/obj/machinery/power/apc/worn_out{dir = 4; name = "East APC"; pixel_x = 24},/obj/structure/window/reinforced{dir = 1},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"cM" = (/obj/machinery/light{icon_state = "tube1"; dir = 4},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"cN" = (/turf/simulated/shuttle/wall{icon_state = "swall3"; dir = 2},/area/ship/scrap/cargo_wreck/dorm)
+"cO" = (/obj/structure/stool/bed,/obj/item/weapon/bedsheet,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm)
+"cP" = (/obj/structure/stool/bed,/obj/item/clothing/under/bluepyjamas,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm)
+"cQ" = (/obj/structure/table,/obj/machinery/light_switch{pixel_x = 24},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm)
+"cR" = (/obj/structure/rack,/obj/item/weapon/tank/jetpack,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"cS" = (/turf/simulated/shuttle/wall{tag = "icon-swall2"; icon_state = "swall2"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"cT" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"cU" = (/obj/structure/table/reinforced,/obj/item/weapon/dice/d100,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"cV" = (/obj/structure/stool/bed/chair/shuttle{tag = "icon-schair (EAST)"; icon_state = "schair"; dir = 4},/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"cW" = (/obj/structure/computerframe,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"cX" = (/obj/effect/mapinfo/sector{icon = 'icons/obj/meteor.dmi'; icon_state = "cargo_wreck"; name = "Cargo Ship"},/turf/space,/area)
+"cY" = (/obj/item/weapon/shard{icon_state = "small"},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"cZ" = (/obj/item/stack/rods,/turf/simulated/floor/plating{tag = "icon-platingdmg1 (NORTH)"; icon_state = "platingdmg1"; dir = 1},/area/ship/scrap/cargo_wreck/hangar)
+"da" = (/turf/space,/area/ship/scrap/cargo_wreck/hangar)
+"db" = (/obj/machinery/power/apc/worn_out{dir = 4; name = "East APC"; pixel_x = 24},/obj/item/weapon/screwdriver,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dc" = (/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm)
+"dd" = (/obj/machinery/light,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm)
+"de" = (/obj/machinery/power/apc/worn_out{dir = 2; name = "South APC"; pixel_y = -24},/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm)
+"df" = (/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm)
+"dg" = (/obj/structure/rack,/obj/item/clothing/suit/space/rig/medical,/obj/item/clothing/mask/breath,/obj/item/clothing/head/helmet/space/rig/medical,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dh" = (/obj/structure/stool/bed/chair/shuttle{tag = "icon-schair (EAST)"; icon_state = "schair"; dir = 4},/obj/effect/decal/remains/human,/obj/item/clothing/under/kamina,/obj/item/clothing/head/caphat,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"di" = (/obj/structure/table/reinforced,/obj/item/weapon/shard{icon_state = "medium"},/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"dj" = (/obj/item/stack/sheet/metal,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"dk" = (/obj/machinery/light{icon_state = "tube1"; dir = 4},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"dl" = (/turf/simulated/shuttle/wall{tag = "icon-swall2"; icon_state = "swall2"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"dm" = (/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/turf/simulated/shuttle/wall{icon_state = "swall_f5"; dir = 2},/area/ship/scrap/cargo_wreck/dorm)
+"dn" = (/obj/structure/noticeboard,/turf/simulated/shuttle/wall{icon_state = "swall12"; dir = 2},/area/ship/scrap/cargo_wreck/dorm)
+"do" = (/turf/simulated/shuttle/wall{tag = "icon-swall8"; icon_state = "swall8"; dir = 2},/area/ship/scrap/cargo_wreck/dorm)
+"dp" = (/obj/machinery/door/airlock/glass,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm)
+"dq" = (/obj/structure/rack,/obj/item/clothing/mask/breath,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dr" = (/obj/item/weapon/cell,/obj/machinery/light_switch{pixel_x = -24},/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"ds" = (/obj/structure/table/reinforced,/obj/item/weapon/shard{icon_state = "small"},/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"dt" = (/obj/item/weapon/shard{icon_state = "small"},/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/hangar)
+"du" = (/obj/item/device/analyzer,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dv" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dw" = (/turf/simulated/shuttle/wall{tag = "icon-swall1"; icon_state = "swall1"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"dx" = (/obj/structure/table/reinforced,/obj/item/stack/cable_coil,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"dy" = (/obj/structure/computerframe,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/engine)
+"dz" = (/obj/structure/table/reinforced,/obj/item/weapon/folder/blue,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"dA" = (/obj/structure/table/reinforced,/obj/item/weapon/paper_bin,/obj/item/weapon/pen{layer = 4},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"dB" = (/obj/machinery/door/window{dir = 1},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"dC" = (/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/turf/simulated/shuttle/wall{icon_state = "swall_f10"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dD" = (/obj/structure/table/reinforced,/obj/item/weapon/gun/energy/laser/retro,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"dE" = (/obj/machinery/light,/turf/space,/area/ship/scrap/cargo_wreck/engine)
+"dF" = (/obj/item/stack/rods,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/hangar)
+"dG" = (/obj/structure/table/reinforced,/obj/item/weapon/folder/yellow,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"dH" = (/obj/structure/stool/bed/chair/office/light{dir = 8},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"dI" = (/obj/structure/stool/bed,/obj/item/weapon/bedsheet,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dJ" = (/obj/item/weapon/crowbar/red,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dK" = (/turf/simulated/shuttle/wall{tag = "icon-swall2"; icon_state = "swall2"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dL" = (/obj/structure/sign/deathsposal{pixel_x = 32},/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dM" = (/turf/simulated/shuttle/wall{tag = "icon-swallc1"; icon_state = "swallc1"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"dN" = (/obj/machinery/light,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"dO" = (/obj/structure/grille,/obj/structure/window/reinforced{dir = 4},/obj/structure/window/reinforced{dir = 8},/obj/structure/window/reinforced,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/command)
+"dP" = (/turf/simulated/shuttle/wall{tag = "icon-swall2"; icon_state = "swall2"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"dQ" = (/obj/structure/closet/crate/secure/weapon,/obj/item/weapon/circuitboard/mecha/gygax/main,/obj/item/weapon/circuitboard/mecha/gygax/peripherals,/obj/item/weapon/circuitboard/mecha/gygax/targeting,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/hangar)
+"dR" = (/obj/structure/lattice,/turf/space,/area/ship/scrap/cargo_wreck/hangar)
+"dS" = (/obj/structure/closet/crate,/obj/item/clothing/under/aqua,/obj/item/clothing/under/lightblue,/obj/item/clothing/under/lightbrown,/obj/item/clothing/under/lightgreen,/obj/item/clothing/under/lightpurple,/obj/item/clothing/under/lightred,/obj/item/clothing/under/color/white,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/hangar)
+"dT" = (/obj/structure/table/reinforced,/obj/item/weapon/folder,/obj/item/stack/packageWrap,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"dU" = (/obj/machinery/light/small,/obj/machinery/photocopier,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"dV" = (/obj/structure/filingcabinet/chestdrawer,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/hangar)
+"dW" = (/obj/item/weapon/tank/air,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dX" = (/obj/item/weapon/weldingtool,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dY" = (/obj/machinery/disposal,/obj/structure/disposalpipe/trunk,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"dZ" = (/obj/structure/computerframe,/obj/item/stack/cable_coil,/turf/simulated/shuttle/floor,/area/ship/scrap/cargo_wreck/command)
+"ea" = (/turf/simulated/shuttle/wall{dir = 4; icon_state = "wall_space"},/area/ship/scrap/cargo_wreck/command)
+"eb" = (/obj/structure/window/reinforced{dir = 1},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/engine)
+"ec" = (/obj/machinery/power/apc/worn_out{dir = 2; name = "South APC"; pixel_y = -32},/obj/structure/window/reinforced{dir = 1},/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/engine)
+"ed" = (/obj/item/weapon/shard,/turf/space,/area/ship/scrap/cargo_wreck/hangar)
+"ee" = (/turf/simulated/shuttle/wall{tag = "icon-swallc2"; icon_state = "swallc2"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"ef" = (/obj/structure/disposalpipe/segment,/turf/simulated/shuttle/wall{icon_state = "swall12"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"eg" = (/turf/simulated/shuttle/wall{tag = "icon-swall14"; icon_state = "swall14"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"eh" = (/turf/simulated/shuttle/wall{icon_state = "swall_s9"; dir = 2},/area/ship/scrap/cargo_wreck/command)
+"ei" = (/turf/simulated/shuttle/wall{icon_state = "swall_s9"; dir = 2},/area/ship/scrap/cargo_wreck/hangar)
+"ej" = (/obj/structure/closet/crate,/obj/item/clothing/under/aqua,/obj/item/clothing/under/lightblue,/obj/item/clothing/under/lightbrown,/obj/item/clothing/under/lightgreen,/obj/item/clothing/under/lightpurple,/obj/item/clothing/under/lightred,/obj/item/clothing/under/color/white,/turf/simulated/floor/plating{tag = "icon-platingdmg1 (NORTH)"; icon_state = "platingdmg1"; dir = 1},/area/ship/scrap/cargo_wreck/hangar)
+"ek" = (/obj/machinery/sleeper,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"el" = (/obj/machinery/sleep_console,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"em" = (/obj/structure/table,/obj/item/weapon/storage/firstaid,/obj/item/stack/medical/bruise_pack,/turf/simulated/shuttle/floor{blocks_air = 1; icon_state = "floor3"; tag = "icon-floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"en" = (/turf/simulated/shuttle/wall{icon_state = "swall_s9"; dir = 2},/area/ship/scrap/cargo_wreck/dorm_bay)
+"eo" = (/turf/simulated/shuttle/wall{icon_state = "swall_s9"; dir = 2},/area/ship/scrap/cargo_wreck/engine)
+"ep" = (/obj/item/weapon/circular_saw,/obj/machinery/light,/turf/simulated/shuttle/floor{tag = "icon-floor3"; icon_state = "floor3"},/area/ship/scrap/cargo_wreck/dorm_bay)
+"eq" = (/obj/structure/disposalpipe/trunk{tag = "icon-pipe-t (NORTH)"; icon_state = "pipe-t"; dir = 1},/obj/structure/disposaloutlet,/turf/space,/area/ship/scrap/cargo_wreck/dorm_bay)
+"er" = (/obj/item/weapon/storage/toolbox/electrical,/turf/simulated/floor/plating,/area/ship/scrap/cargo_wreck/engine)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaabacadaeaeafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagahaiajakafaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalaaaaaaaaaaamanaoapaqaparaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasahatauavawafaaaaaaaxayazayayayayayazayayayaAaBaaaaaaaaaaaCaDaEaFaGaHaraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaIaeaJaKaLacaJaJaMaBaaaNaOaPaQaRaSaPaTaPaUaPaVaWaXaBaaaaaaaaaYaDaZbabbbcbdaparaaaabebfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabgbhbhbhbhbhbhbiaXbjaybkaOblaTbmaTbmbnbmbobmaTbpbqbjayaMaoapapbrapbsbtbubrapbvaaaabwbxbfaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabybzbAbAbAbAbzbiaNbBbCaPaQbmaTbDaTbmaTbmaTbEaTbpbFbGbHaXbIbJbJbKbbbbbbbLbbbMbNaaaabObPbQbRbSbTbUaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabVbzbAbAbAbAbzbibWbmbXbYbmbmbmbmbmbmbZcabZbZbmbpbFbHbHaNcbbJbJbJbbbbbbbtbbbbaHcccccdcecfcgchcicjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabAbzbzbzbzbzbzckclcmcnbmbmbmcocpcqcrcsctcubZctcvcwbHbHaNbJbJcxcycycycyczcAbbbbcBcecCcececececDcEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabAbzbAbAbAbAbzcFcGbmbmbmbmbmcHbZbZcacscIcHbZctbZcJcKcLclbJcMcNcOcPcOcQcNbbbbcRcScTchcUchcecVcWcEaacXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabAbzbAbAbAbAbzbicGbmbmcYbmbmbZbZcZctdacIcIcIbZbZbmbmbmcGbJdbcNdcdddedfcNbbbbdgbOcedhcWchcecedicEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabAbzbAbAbAbAbzbicGbmbmdjbmbZctcscadacIcIcIcsctcadjbmdkdlbJbJdmcydndodpcNbbbbdqbOdrcVcWdscecechcEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabAbzbAbAbAbAbzckdlcmcnbmbZbZcrdadadadacIcacsctdtbmbmbmaNbJbJbJbJdubJbJbLdvbbbbdwcTchdxchcecVcWcEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabAbzbzbzbzbzbzdybWbmaTbZcacIdadadadadadacrcactbZdzdAdBaXapapdCbJbbbbbbbtbbbbbbcBcecececececedDcEaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaadEbzbAbAbAbAbzbiaNbmbZdFcsdadadadadadadadacacZbmdGdHbmaNdIdIbLbJbbdJbbdKbbdLbuccccdMcedNchchcidOaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaadPbzbAbAbAbAbzbiaNdQbZdRdRdadadadadadadadacIctdSdTdUdVaNdvbJbtbJdWbabbbNdXdYbNaaaabOdZbebRbSbTeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaabgebebebebebecbiaXaMdadaeddadadadadadadaedctctbZeeaMaybjapapapaoapbsbtaHaoefbvaaaabwegehaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaakaeadaKaLacadadbjeiaadadadadadadadadadadactejcoaXeiaaaaaaaaaCaDekelbbembdefenaaaabQehaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaagahatatavaweoaaaaaadadadadadadadadadRdRayayayeiaaaaaaaaaaaYaDbbepbbbueneqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasaherataIeoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaamanbrapaqapenaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaabacaJaeaeeoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}

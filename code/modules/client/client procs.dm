@@ -1,0 +1,469 @@
+	////////////
+	//SECURITY//
+	////////////
+#define TOPIC_SPAM_DELAY	2		//2 ticks is about 2/10ths of a second; it was 4 ticks, but that caused too many clicks to be lost due to lag
+#define UPLOAD_LIMIT		10485760	//Restricts client uploads to the server to 10MB //Boosted this thing. What's the worst that can happen?
+#define MIN_CLIENT_VERSION	0		//Just an ambiguously low version for now, I don't want to suddenly stop people playing.
+									//I would just like the code ready should it ever need to be used.
+	/*
+	When somebody clicks a link in game, this Topic is called first.
+	It does the stuff in this proc and  then is redirected to the Topic() proc for the src=[0xWhatever]
+	(if specified in the link). ie locate(hsrc).Topic()
+
+	Such links can be spoofed.
+
+	Because of this certain things MUST be considered whenever adding a Topic() for something:
+		- Can it be fed harmful values which could cause runtimes?
+		- Is the Topic call an admin-only thing?
+		- If so, does it have checks to see if the person who called it (usr.client) is an admin?
+		- Are the processes being called by Topic() particularly laggy?
+		- If so, is there any protection against somebody spam-clicking a link?
+	If you have any  questions about this stuff feel free to ask. ~Carn
+	*/
+/client/Topic(href, href_list, hsrc)
+	if(!usr || usr != mob)	//stops us calling Topic for somebody else's client. Also helps prevent usr=null
+		return
+
+	//Reduces spamming of links by dropping calls that happen during the delay period
+	if(next_allowed_topic_time > world.time)
+		return
+	next_allowed_topic_time = world.time + TOPIC_SPAM_DELAY
+
+	//search the href for script injection
+	if( findtext(href,"<script",1,0) )
+		world.log << "Attempted use of scripts within a topic call, by [src]"
+		message_admins("Attempted use of scripts within a topic call, by [src]")
+		//del(usr)
+		return
+
+	//Admin PM
+	if(href_list["priv_msg"])
+		var/client/C = locate(href_list["priv_msg"])
+		if(ismob(C)) 		//Old stuff can feed-in mobs instead of clients
+			var/mob/M = C
+			C = M.client
+		cmd_admin_pm(C,null)
+		return
+
+	//Logs all hrefs
+	if(config && config.log_hrefs && href_logfile)
+		href_logfile << "<small>[time2text(world.timeofday,"hh:mm")] [src] (usr:[usr])</small> || [hsrc ? "[hsrc] " : ""][href]<br>"
+
+	switch(href_list["_src_"])
+		if("holder")	hsrc = holder
+		if("usr")		hsrc = mob
+		if("prefs")		return prefs.process_link(usr,href_list)
+		if("vars")		return view_var_Topic(href,href_list,hsrc)
+
+	..()	//redirect to hsrc.Topic()
+
+/client/proc/handle_spam_prevention(var/message, var/mute_type)
+	if(config.automute_on && !holder && src.last_message == message)
+		src.last_message_count++
+		if(src.last_message_count >= SPAM_TRIGGER_AUTOMUTE)
+			src << "\red You have exceeded the spam d_filter limit for identical messages. An auto-mute was applied."
+			cmd_admin_mute(src.mob, mute_type, 1)
+			return 1
+		if(src.last_message_count >= SPAM_TRIGGER_WARNING)
+			src << "\red You are nearing the spam d_filter limit for identical messages."
+			return 0
+	else
+		last_message = message
+		src.last_message_count = 0
+		return 0
+
+//This stops files larger than UPLOAD_LIMIT being sent from client to server via input(), client.Import() etc.
+/client/AllowUpload(filename, filelength)
+	if(filelength > UPLOAD_LIMIT)
+		src << "<font color='red'>Error: AllowUpload(): File Upload too large. Upload Limit: [UPLOAD_LIMIT/1024]KiB.</font>"
+		return 0
+/*	//Don't need this at the moment. But it's here if it's needed later.
+	//Helps prevent multiple files being uploaded at once. Or right after eachother.
+	var/time_to_wait = fileaccess_timer - world.time
+	if(time_to_wait > 0)
+		src << "<font color='red'>Error: AllowUpload(): Spam prevention. Please wait [round(time_to_wait/10)] seconds.</font>"
+		return 0
+	fileaccess_timer = world.time + FTPDELAY	*/
+	return 1
+
+
+	///////////
+	//CONNECT//
+	///////////
+/client/New(TopicData)
+	TopicData = null							//Prevent calls to client.Topic from connect
+
+	if(connection != "seeker")					//Invalid connection type.
+		return null
+	if(byond_version < MIN_CLIENT_VERSION)		//Out of date client.
+		return null
+
+	if(IsGuestKey(key))
+		alert(src,"This server doesn't allow guest accounts to play. Please go to http://www.byond.com/ and register for a key.","Guest","OK")
+		del(src)
+		return
+
+	// Change the way they should download resources.
+	if(config.resource_urls)
+		src.preload_rsc = pick(config.resource_urls)
+	else src.preload_rsc = 1 // If config.resource_urls is not set, preload like normal.
+
+	src << "\red If the title screen is black, resources are still downloading. Please be patient until the title screen appears."
+
+
+	clients += src
+	directory[ckey] = src
+
+	//Admin Authorisation
+	holder = admin_datums[ckey]
+	if(holder)
+		admins += src
+		holder.owner = src
+
+	//preferences datum - also holds some persistant data for the client (because we may as well keep these datums to a minimum)
+	prefs = preferences_datums[ckey]
+	if(!prefs)
+		prefs = new /datum/preferences(src)
+		preferences_datums[ckey] = prefs
+	prefs.last_ip = address				//these are gonna be used for banning
+	prefs.last_id = computer_id			//these are gonna be used for banning
+
+	. = ..()	//calls mob.Login()
+
+	if(custom_event_msg && custom_event_msg != "")
+		src << "<h1 class='alert'>Custom Event</h1>"
+		src << "<h2 class='alert'>A custom event is taking place. OOC Info:</h2>"
+		src << "<span class='alert'>[sanitize_uni(custom_event_msg)]</span>"
+		src << "<br>"
+
+	if( (world.address == address || !address) && !host )
+		host = key
+		world.update_status()
+
+	if(holder)
+		add_admin_verbs()
+		admin_memo_show()
+
+	log_client_to_db()
+
+	send_resources()
+
+	if(prefs.lastchangelog != changelog_hash) //bolds the changelog button on the interface so we know there are updates.
+		winset(src, "rpane.changelog", "background-color=#eaeaea;font-style=bold")
+
+
+	//////////////
+	//DISCONNECT//
+	//////////////
+/client/Del()
+	if(holder)
+		holder.owner = null
+		admins -= src
+	directory -= ckey
+	clients -= src
+	return ..()
+
+
+
+/client/proc/log_client_to_db()
+
+	if ( IsGuestKey(src.key) )
+		return
+
+	establish_db_connection()
+	if(!dbcon.IsConnected())
+		return
+
+	var/sql_ckey = sql_sanitize_text(src.ckey)
+
+	var/DBQuery/query = dbcon.NewQuery("SELECT id, datediff(Now(),firstseen) as age FROM erro_player WHERE ckey = '[sql_ckey]'")
+	query.Execute()
+	var/sql_id = 0
+	while(query.NextRow())
+		sql_id = query.item[1]
+		player_age = text2num(query.item[2])
+		break
+
+	var/DBQuery/query_ip = dbcon.NewQuery("SELECT ckey FROM erro_player WHERE ip = '[address]'")
+	query_ip.Execute()
+	related_accounts_ip = ""
+	while(query_ip.NextRow())
+		related_accounts_ip += "[query_ip.item[1]], "
+		//break
+
+	var/DBQuery/query_cid = dbcon.NewQuery("SELECT ckey FROM erro_player WHERE computerid = '[computer_id]'")
+	query_cid.Execute()
+	related_accounts_cid = ""
+	while(query_cid.NextRow())
+		related_accounts_cid += "[query_cid.item[1]], "
+		//break
+
+	//Just the standard check to see if it's actually a number
+	if(sql_id)
+		if(istext(sql_id))
+			sql_id = text2num(sql_id)
+		if(!isnum(sql_id))
+			return
+
+	var/admin_rank = "Player"
+	if(src.holder)
+		admin_rank = src.holder.rank
+
+	var/sql_ip = sql_sanitize_text(src.address)
+	var/sql_computerid = sql_sanitize_text(src.computer_id)
+	var/sql_admin_rank = sql_sanitize_text(admin_rank)
+
+
+	if(sql_id)
+		//Player already identified previously, we need to just update the 'lastseen', 'ip' and 'computer_id' variables
+		var/DBQuery/query_update = dbcon.NewQuery("UPDATE erro_player SET lastseen = Now(), ip = '[sql_ip]', computerid = '[sql_computerid]', lastadminrank = '[sql_admin_rank]' WHERE id = [sql_id]")
+		query_update.Execute()
+	else
+		//New player!! Need to insert all the stuff
+		var/DBQuery/query_insert = dbcon.NewQuery("INSERT INTO erro_player (id, ckey, firstseen, lastseen, ip, computerid, lastadminrank) VALUES (null, '[sql_ckey]', Now(), Now(), '[sql_ip]', '[sql_computerid]', '[sql_admin_rank]')")
+		query_insert.Execute()
+
+#undef TOPIC_SPAM_DELAY
+#undef UPLOAD_LIMIT
+#undef MIN_CLIENT_VERSION
+
+//checks if a client is afk
+//3000 frames = 5 minutes
+/client/proc/is_afk(duration=3000)
+	if(inactivity > duration)	return inactivity
+	return 0
+
+//send resources to the client. It's here in its own proc so we can move it around easiliy if need be
+/client/proc/send_resources()
+	// Send NanoUI resources to this client
+	nanomanager.send_resources(src)
+
+	getFiles(
+		'nano/images/uiBackground.png',
+		'nano/mapbase1024.png',
+		'nano/NTLogoRevised.fla',
+		'nano/uiBackground.fla',
+		'nano/images/source/icon-eye.xcf',
+		'nano/images/source/NTLogoRevised.fla',
+		'nano/images/source/splash-ds.html',
+		'nano/images/source/uiBackground.fla',
+		'nano/images/source/uiBackground.xcf',
+		'nano/images/source/uiBackground-Syndicate.xcf',
+		'nano/images/source/uiBasicBackground.xcf',
+		'nano/images/source/uiIcons16Green.xcf',
+		'nano/images/source/uiIcons16Red.xcf',
+		'nano/images/source/uiIcons24.xcf',
+		'nano/images/source/uiNoticeBackground.xcf',
+		'nano/images/source/uiTitleBackground.xcf',
+		'nano/images/loading.gif',
+		'nano/images/icon-eye.xcf',
+		'nano/images/uiBackground.png',
+		'nano/images/uiBackground.xcf',
+		'nano/images/uiBackground-Syndicate.xcf',
+		'nano/images/uiBasicBackground.png',
+		'nano/images/nanomap.png',
+		'nano/images/nanomap1.png',
+		'nano/images/nanomap2.png',
+		'nano/images/nanomap3.png',
+		'nano/images/nanomap4.png',
+		'nano/images/nanomap5.png',
+		'nano/images/nanomap6.png',
+		'nano/images/nanomapBackground.png',
+		'nano/images/uiBackground-Syndicate.png',
+		'nano/images/uiIcons16.png',
+		'nano/images/uiIcons16Green.png',
+		'nano/images/uiIcons16Red.png',
+		'nano/images/uiIcons16Orange.png',
+		'nano/images/uiIcons24.png',
+		'nano/images/uiIcons24.xcf',
+		'nano/images/uiLinkPendingIcon.gif',
+		'nano/images/uiMaskBackground.png',
+		'nano/images/uiNoticeBackground.jpg',
+		'nano/images/uiTitleFluff.png',
+		'nano/images/uiTitleFluff-Syndicate.png',
+		'nano/templates/apc.tmpl',
+		'nano/templates/accounts_terminal.tmpl',
+		'nano/templates/advanced_airlock_console.tmpl',
+		'nano/templates/ame.tmpl',
+		'nano/templates/atmos_control.tmpl',
+		'nano/templates/atmos_control_map_content.tmpl',
+		'nano/templates/atmos_control_map_header.tmpl',
+		'nano/templates/comm_console.tmpl',
+		'nano/templates/disease_splicer.tmpl',
+		'nano/templates/dish_incubator.tmpl',
+		'nano/templates/docking_airlock_console.tmpl',
+		'nano/templates/door_access_console.tmpl',
+		'nano/templates/engines_control.tmpl',
+		'nano/templates/escape_pod_berth_console.tmpl',
+		'nano/templates/escape_pod_console.tmpl',
+		'nano/templates/escape_shuttle_control_console.tmpl',
+		'nano/templates/helm.tmpl',
+		'nano/templates/isolation_centrifuge.tmpl',
+		'nano/templates/layout_default.tmpl',
+		'nano/templates/multi_docking_console.tmpl',
+		'nano/templates/omni_filter.tmpl',
+		'nano/templates/omni_mixer.tmpl',
+		'nano/templates/pathogenic_isolator.tmpl',
+		'nano/templates/shuttle_control_console.tmpl',
+		'nano/templates/shuttle_control_console_exploration.tmpl',
+		'nano/templates/simple_airlock_console.tmpl',
+		'nano/templates/simple_docking_console.tmpl',
+		'nano/templates/simple_docking_console_pod.tmpl',
+		'nano/templates/TemplatesGuide.txt',
+		'nano/templates/air_alarm.tmpl',
+		'nano/templates/atmos_control.tmpl',
+		'nano/templates/atmos_control_map_header.tmpl',
+		'nano/templates/atmos_control_map_content.tmpl',
+		'nano/templates/crew_monitor.tmpl',
+		'nano/templates/crew_monitor_map_content.tmpl',
+		'nano/templates/crew_monitor_map_header.tmpl',
+		'nano/templates/canister.tmpl',
+		'nano/templates/chem_dispenser.tmpl',
+		'nano/templates/chem_heater.tmpl',
+		'nano/templates/crew_monitor.tmpl',
+		'nano/templates/cryo.tmpl',
+		'nano/templates/dna_modifier.tmpl',
+		'nano/templates/freezer.tmpl',
+		'nano/templates/geoscanner.tmpl',
+		'nano/templates/identification_computer.tmpl',
+		'nano/templates/pda.tmpl',
+		'nano/templates/smartfridge.tmpl',
+		'nano/templates/smes.tmpl',
+		'nano/templates/tanks.tmpl',
+		'nano/templates/telescience_console.tmpl',
+		'nano/templates/transfer_valve.tmpl',
+		'nano/templates/uplink.tmpl',
+		'nano/js/libraries/1-jquery.js',
+		'nano/js/libraries.min.js',
+		'nano/js/libraries/2-doT.js',
+		'nano/js/libraries/3-jquery.timers.js',
+		'nano/js/pngfix.js',
+		'nano/js/nano_template.js',
+		'nano/js/nano_base_helpers.js',
+		'nano/js/nano_update.js',
+		'nano/js/nano_config.js',
+		'nano/js/nano_utility.js',
+		'nano/js/nano_base_callbacks.js',
+		'nano/js/nano_state.js',
+		'nano/js/nano_state_manager.js',
+		'nano/js/nano_state_default.js',
+		'nano/css/layout_basic.css',
+		'nano/css/nlayout_default.css',
+		'nano/css/layout_default.css',
+		'nano/css/icons.css',
+		'nano/css/shared.css',
+		'html/painew.png',
+		'html/loading.gif',
+		'html/search.js',
+		'html/panels.css',
+		'icons/pda_icons/pda_atmos.png',
+		'icons/pda_icons/pda_back.png',
+		'icons/pda_icons/pda_bell.png',
+		'icons/pda_icons/pda_blank.png',
+		'icons/pda_icons/pda_boom.png',
+		'icons/pda_icons/pda_bucket.png',
+		'icons/pda_icons/pda_crate.png',
+		'icons/pda_icons/pda_cuffs.png',
+		'icons/pda_icons/pda_eject.png',
+		'icons/pda_icons/pda_exit.png',
+		'icons/pda_icons/pda_flashlight.png',
+		'icons/pda_icons/pda_honk.png',
+		'icons/pda_icons/pda_mail.png',
+		'icons/pda_icons/pda_medical.png',
+		'icons/pda_icons/pda_menu.png',
+		'icons/pda_icons/pda_mule.png',
+		'icons/pda_icons/pda_notes.png',
+		'icons/pda_icons/pda_power.png',
+		'icons/pda_icons/pda_rdoor.png',
+		'icons/pda_icons/pda_reagent.png',
+		'icons/pda_icons/pda_refresh.png',
+		'icons/pda_icons/pda_scanner.png',
+		'icons/pda_icons/pda_signaler.png',
+		'icons/pda_icons/pda_status.png',
+		'icons/spideros_icons/sos_1.png',
+		'icons/spideros_icons/sos_2.png',
+		'icons/spideros_icons/sos_3.png',
+		'icons/spideros_icons/sos_4.png',
+		'icons/spideros_icons/sos_5.png',
+		'icons/spideros_icons/sos_6.png',
+		'icons/spideros_icons/sos_7.png',
+		'icons/spideros_icons/sos_8.png',
+		'icons/spideros_icons/sos_9.png',
+		'icons/spideros_icons/sos_10.png',
+		'icons/spideros_icons/sos_11.png',
+		'icons/spideros_icons/sos_12.png',
+		'icons/spideros_icons/sos_13.png',
+		'icons/spideros_icons/sos_14.png',
+		)
+
+
+/client/proc/GetHighJob()
+	if(src.prefs.job_civilian_low & ASSISTANT)//This gives the preview icon clothes depending on which job(if any) is set to 'high'
+		work_chosen = "Unassigned"
+	if(src.prefs.job_civilian_high)
+		switch(src.prefs.job_civilian_high)
+			if(HOP)
+				work_chosen = "Head of Personnel"
+			if(BARTENDER)
+				work_chosen = "Bartender"
+			if(BOTANIST)
+				work_chosen = "Botanist"
+			if(CHEF)
+				work_chosen = "Chef"
+			if(JANITOR)
+				work_chosen = "Janitor"
+			if(LIBRARIAN)
+				work_chosen = "Librarian"
+			if(QUARTERMASTER)
+				work_chosen = "Quartermaster"
+			if(CARGOTECH)
+				work_chosen = "Cargotech"
+			if(MINER)
+				work_chosen = "Miner"
+			if(LAWYER)
+				work_chosen = "Lewyer"
+			if(CHAPLAIN)
+				work_chosen = "Chaplain"
+			if(CLOWN)
+				work_chosen = "Clown"
+			if(MIME)
+				work_chosen = "Mime"
+	else if(src.prefs.job_medsci_high)
+		switch(src.prefs.job_medsci_high)
+			if(RD)
+				work_chosen = "Research Director"
+			if(SCIENTIST)
+				work_chosen = "Scientist"
+			if(CHEMIST)
+				work_chosen = "Chemist"
+			if(DOCTOR)
+				work_chosen = "Medical Doctor"
+			if(GENETICIST)
+				work_chosen = "Geneticist"
+			if(VIROLOGIST)
+			if(ROBOTICIST)
+				work_chosen = "Roboticist"
+	else if(src.prefs.job_engsec_high)
+		switch(src.prefs.job_engsec_high)
+			if(CAPTAIN)
+				work_chosen = "Captain"
+			if(HOS)
+				work_chosen = "Head of Security"
+			if(WARDEN)
+				work_chosen = "Warden"
+			if(DETECTIVE)
+				work_chosen = "Detective"
+			if(OFFICER)
+				work_chosen = "Security Officer"
+			if(CHIEF)
+				work_chosen = "Chief Engineer"
+			if(ENGINEER)
+				work_chosen = "Station Engineer"
+			if(ATMOSTECH)
+				work_chosen = "Atmospheric Technician"
+			if(AI)
+				work_chosen = "AI"
+			if(CYBORG)
+				work_chosen = "Cyborg"
+	else
+		work_chosen = "Random"
