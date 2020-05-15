@@ -181,6 +181,10 @@ emp_act
 		visible_message("\red <B>[user] misses [src] with \the [I]!")
 		playsound(loc, 'sound/weapons/punchmiss.ogg', 25, 1, -1)
 		return 0
+	var/datum/organ/external/head/O = locate(/datum/organ/external/head/) in src.organs
+	if(I.damtype == BRUTE && target_zone == "head" || !I)//Knocking out teeth.
+		src.visible_message("OH SHIT THAT HURT")
+		O.knock_out_teeth(get_dir(user, src), round(rand(28, 38) * ((I.force*1.5)/100)))
 
 	var/datum/organ/external/affecting = get_organ(target_zone)
 	if (!affecting)
@@ -286,7 +290,6 @@ emp_act
 		if((weapon_sharp && damage > (10*I.w_class)) || (damage > embed_threshold && prob(embed_chance)))
 			affecting.embed(I)
 	return 1
-
 
 //this proc handles being hit by a thrown atom
 /mob/living/carbon/human/hitby(atom/movable/AM as mob|obj,var/speed = 5)
