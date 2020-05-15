@@ -41,7 +41,7 @@
 	var/remains_type = /obj/effect/decal/remains/xeno
 	var/death_sound
 	var/death_message = "seizes up and falls limp, their eyes dead and lifeless..."
-
+	var/teeth_type = /obj/item/stack/teeth/generic
 	var/breath_type = "oxygen"   // Non-oxygen gas breathed, if any.
 	var/poison_type = "plasma"   // Poisonous air.
 	var/exhale_type = "carbon_dioxide"      // Exhaled gas type.
@@ -209,7 +209,7 @@
 	language = "Sol Common"
 	primitive = /mob/living/carbon/monkey
 	unarmed_type = /datum/unarmed_attack/punch
-
+	teeth_type = /obj/item/stack/teeth/human
 	flags = HAS_SKIN_TONE | HAS_LIPS | HAS_UNDERWEAR
 
 	//If you wanted to add a species-level ability:

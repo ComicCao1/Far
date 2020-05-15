@@ -170,6 +170,7 @@
 	//right ear
 	if(r_ear && !skipears)
 		msg += "[t_He] [t_has] \icon[r_ear] \a [r_ear] on [t_his] right ear.\n"
+	var/datum/organ/external/head/U = locate(/datum/organ/external/head/) in organs
 
 	//ID
 	if(wear_id)
@@ -184,7 +185,11 @@
 			msg += "<span class='warning'>[t_He] [t_is] wearing \icon[wear_id] \a [wear_id] yet something doesn't seem right...</span>\n"
 		else*/
 		msg += "[t_He] [t_is] wearing \icon[wear_id] \a [wear_id].\n"
-
+	if(U && U.get_teeth() < U.max_teeth)
+		msg += "<span class='warning'><B>[U.get_teeth() <= 0 ? "All" : "[U.max_teeth - U.get_teeth()]"] of theyr teeth are missing!</B></span>\n"
+	else
+		if(U.get_teeth() == U.max_teeth)
+			msg += "He has no missing teeth\n"
 	//Jitters
 	if(is_jittery)
 		if(jitteriness >= 300)
@@ -456,7 +461,7 @@
 
 	msg += "*---------*</span>"
 	if (pose)
-		if( findtext(pose,".",lentext(pose)) == 0 && findtext(pose,"!",lentext(pose)) == 0 && findtext(pose,"?",lentext(pose)) == 0 )
+		if( findtext(pose,".",length(pose)) == 0 && findtext(pose,"!",length(pose)) == 0 && findtext(pose,"?",length(pose)) == 0 )
 			pose = addtext(pose,".") //Makes sure all emotes end with a period.
 		msg += "\n[t_He] is [pose]"
 

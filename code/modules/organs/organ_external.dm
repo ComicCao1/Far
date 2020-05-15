@@ -655,7 +655,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 						organ = new /obj/item/robot_parts/l_leg(owner.loc)
 					else
 						organ= new /obj/item/weapon/organ/l_leg(owner.loc, owner)
-					
+
 				if(HAND_RIGHT)
 					if(!(status & ORGAN_ROBOT))
 						organ= new /obj/item/weapon/organ/r_hand(owner.loc, owner)
@@ -672,7 +672,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 					if(!(status & ORGAN_ROBOT))
 						organ = new /obj/item/weapon/organ/l_foot(owner.loc, owner)
 					owner.u_equip(owner.shoes)
-					
+
 
 			owner.visible_message("\red [owner.name]'s [display_name] flies off in bloody arc.",\
 			"<span class='moderate'><b>Your [display_name] goes flying off!</b></span>",\
@@ -716,7 +716,7 @@ Note that amputating the affected organ does in fact remove the infection from t
 				if(FOOT_LEFT)
 					owner.u_equip(owner.shoes)
 
-					
+
 
 			owner.visible_message("\red [owner.name]'s [display_name] explodes into gore!",\
 			"<span class='moderate'><b>Your [display_name] explodes into gore!</b></span>",\
@@ -1036,7 +1036,8 @@ Note that amputating the affected organ does in fact remove the infection from t
 	var/brained = 0
 	vital = 1
 	encased = "skull"
-
+	var/list/teeth_list = list()
+	var/max_teeth = 32
 /datum/organ/external/head/get_icon(var/icon/race_icon, var/icon/deform_icon)
 	if (!owner)
 	 return ..()
@@ -1177,7 +1178,32 @@ obj/item/weapon/organ/head
 
 /obj/item/weapon/organ/head/posi
 	name = "robotic head"
+/obj/item/stack/teeth
+	name = "teeth"
+	singular_name = "tooth"
+	w_class = 1
+	force = 0
+	throwforce = 0
+	max_amount = 32
+	gender = PLURAL
+	desc = "Welp. Someone had their teeth knocked out."
+	icon = 'icons/obj/surgeryy.dmi'
+	icon_state = "tooth1"
+/obj/item/stack/teeth/New()
+	..()
+	icon_state = "tooth[rand(1,3)]"
 
+/obj/item/stack/teeth/human
+	name = "human teeth"
+	singular_name = "human tooth"
+/datum/organ/external/head/proc/get_teeth() //returns collective amount of teeth
+	var/amt = 0
+	if(!teeth_list) teeth_list = list()
+	for(var/obj/item/stack/teeth in teeth_list)
+		amt += teeth.amount
+	return amt
+/obj/item/stack/teeth/generic //Used for species without unique teeth defined yet
+	name = "teeth"
 obj/item/weapon/organ/head/New(loc, mob/living/carbon/human/H)
 	if(istype(H))
 		src.icon_state = H.gender == MALE? "head_m" : "head_f"
@@ -1227,6 +1253,15 @@ obj/item/weapon/organ/head/proc/transfer_identity(var/mob/living/carbon/human/H)
 	if(H.mind)
 		H.mind.transfer_to(brainmob)
 	brainmob.container = src
+
+mob/living/carbon/human/proc/add_teeth()
+	var/datum/organ/external/head/U = locate() in organs
+	if(istype(U))
+		U.teeth_list.Cut() //Clear out their mouth of teeth
+		var/obj/item/stack/teeth/T = new species.teeth_type(U)
+		U.max_teeth = T.max_amount //Set max teeth for the head based on teeth spawntype
+		T.amount = T.max_amount
+		U.teeth_list += T
 
 obj/item/weapon/organ/head/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	if(istype(W,/obj/item/weapon/scalpel))
