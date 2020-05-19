@@ -13,7 +13,7 @@
 	meat_type = /obj/item/weapon/reagent_containers/food/snacks/meat
 	response_help  = "pets the"
 	response_disarm = "gently pushes aside the"
-	response_harm   = "punches the"
+	response_harm   = "	es the"
 	var/list/insults = list(
 	"Man you suck",
 	"You look like the most retarded douche around",

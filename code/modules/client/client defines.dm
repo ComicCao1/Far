@@ -11,6 +11,8 @@
 		/////////
 		//OTHER//
 		/////////
+	mouse_pointer_icon = 'icons/redu/cursor.dmi'
+
 	var/datum/preferences/prefs = null
 	var/move_delay		= 1
 	var/moving			= null
