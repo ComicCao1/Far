@@ -32,10 +32,13 @@
 		if(name == "Space")			// override defaults for space
 			requires_power = 1
 			always_unpowered = 1
+			//sd_SetLuminosity(1)
+			//sd_lighting = 0
 			LightLevels = list("Red" = 2, "Green" = 2, "Blue" = 3)
 			power_light = 0
 			power_equip = 0
 			power_environ = 0
+			luminosity = 1
 			//has_gravity = 0    // Space has gravity.  Because.. because.
 
 		if(!requires_power)
@@ -45,7 +48,8 @@
 			if(!ul_Lighting)
 				luminosity = 1
 		else
-			luminosity = 0
+			if(name != "Space")
+				luminosity = 0
 			area_lights_luminosity = rand(6,8)
 		if(LightLevels)
 			ul_Light()

@@ -1,0 +1,1 @@
+#define to_chat(target, message)                            target << (message)

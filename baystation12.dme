@@ -80,6 +80,7 @@
 #define DEBUG
 // END_PREFERENCES
 // BEGIN_INCLUDE
+#include "code\_macro.dm"
 #include "code\global.dm"
 #include "code\hub.dm"
 #include "code\names.dm"
@@ -239,6 +240,7 @@
 #include "code\datums\wires\autolathe.dm"
 #include "code\datums\wires\explosive.dm"
 #include "code\datums\wires\wires.dm"
+#include "code\defines\lighting.dm"
 #include "code\defines\obj.dm"
 #include "code\defines\obj\weapon.dm"
 #include "code\defines\procs\announce.dm"
@@ -1527,7 +1529,7 @@
 #include "code\ZAS\Zone.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
-#include "maps\tgstation2.dmm"
+#include "maps\NSV_Luna11321_Normal.dmm"
 #include "maps\encounters\satellite.dm"
 #include "maps\encounters\bearcat.dmm"
 #include "maps\encounters\cargo_wreck.dmm"

@@ -1,9 +1,9 @@
 /var/obj/effect/lobby_image = new/obj/effect/lobby_image()
 
 /obj/effect/lobby_image
-	name = "Baystation12"
-	desc = "This shouldn't be read"
-	icon = 'icons/misc/fullscreen.dmi'
+	name = "Far"
+	desc = "This shouldn't be read."
+	icon = 'icons/misc/titlee.dmi'
 	icon_state = "title"
 	screen_loc = "WEST,SOUTH"
 

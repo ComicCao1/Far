@@ -51,6 +51,7 @@
 										blocked = 0
 										AM.visible_message("<span class='warning'>[AM.name] breaks through [A] and falls down!","<span class='warning'>You breaks through [A] and falls down!")
 										A.Destroy()
+										AM.z -= 1
 								//	else if((FAT in AM.mutations) && prob(80))
 								//		blocked = 0
 								//		AM.visible_message("<span class='warning'>[AM.name] breaks through [A] and falls down!","<span class='warning'>You breaks through [A] and falls down!")

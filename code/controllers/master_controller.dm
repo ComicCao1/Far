@@ -141,6 +141,9 @@ datum/controller/game_controller/proc/setup_objects()
 
 datum/controller/game_controller/proc/process()
 	processing = 1
+
+//	spawn(0)
+//		sd_Update()
 	spawn(0)
 		set background = 1
 		while(1)	//far more efficient than recursively calling ourself
