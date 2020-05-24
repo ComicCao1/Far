@@ -364,6 +364,14 @@
 	mymob.flash.screen_loc = "1,1 to 15,15"
 	mymob.flash.layer = 17
 
+	mymob.film_grain = new /obj/screen()
+	mymob.film_grain.screen_loc = "1,1 to 15,15"
+	mymob.film_grain.icon = 'icons/effects/static.dmi'
+	mymob.film_grain.name = "film"
+	mymob.film_grain.icon_state = "1 light"
+	mymob.film_grain.layer = 17
+	mymob.film_grain.mouse_opacity = 0
+
 	mymob.pain = new /obj/screen( null )
 	mymob.pain.icon = ui_style
 	mymob.pain.icon_state = "blank"
@@ -401,7 +409,7 @@
 
 	mymob.client.screen = null
 
-	mymob.client.screen += list( mymob.throw_icon, mymob.zone_sel, mymob.oxygen, mymob.pressure, mymob.toxin, mymob.bodytemp, mymob.internals, mymob.fire, mymob.healths, mymob.nutrition_icon, mymob.pullin, mymob.blind, mymob.flash, mymob.damageoverlay, mymob.rest, mymob.pain) //, mymob.hands, mymob.rest, mymob.sleep) //, mymob.mach )
+	mymob.client.screen += list( mymob.throw_icon, mymob.zone_sel, mymob.oxygen, mymob.pressure, mymob.toxin, mymob.bodytemp, mymob.internals, mymob.fire, mymob.healths, mymob.nutrition_icon, mymob.pullin, mymob.blind, mymob.flash, mymob.damageoverlay, mymob.rest, mymob.pain, mymob.film_grain) //, mymob.hands, mymob.rest, mymob.sleep) //, mymob.mach )
 	mymob.client.screen += src.adding + src.hotkeybuttons
 	inventory_shown = 0;
 

@@ -1248,7 +1248,12 @@
 
 	proc/handle_regular_hud_updates()
 		if(!client)	return 0
-
+		var/obj/screen/grain = film_grain
+		if(grain)
+			grain.icon_state =  "6 light"
+			grain.alpha = 110
+		else
+			world << "RERROR"
 		for(var/image/hud in client.images)
 			if(copytext(hud.icon_state,1,4) == "hud") //ugly, but icon comparison is worse, I believe
 				client.images.Remove(hud)

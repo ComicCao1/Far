@@ -12,6 +12,7 @@ var/datum/global_hud/global_hud = new()
 /datum/global_hud
 	var/obj/screen/druggy
 	var/obj/screen/blurry
+	var/obj/screen/film_grain
 	var/list/vimpaired
 	var/list/darkMask
 	//Mask d_filters
@@ -35,6 +36,13 @@ var/datum/global_hud/global_hud = new()
 	blurry.icon_state = "blurry"
 	blurry.layer = 17
 	blurry.mouse_opacity = 0
+
+	film_grain = new /obj/screen()
+	film_grain.screen_loc = "1,1 to 15,15"
+	film_grain.icon = 'icons/effects/static.dmi'
+	film_grain.icon_state = "1 light"
+	film_grain.layer = 17
+	film_grain.mouse_opacity = 0
 
 	//Green d_filter for the gasmask
 	g_dither = new /obj/screen()
@@ -126,7 +134,6 @@ var/datum/global_hud/global_hud = new()
 
 /datum/hud
 	var/mob/mymob
-
 	var/hud_shown = 1			//Used for the HUD toggle (F12)
 	var/inventory_shown = 1		//the inventory
 	var/show_intent_icons = 0
