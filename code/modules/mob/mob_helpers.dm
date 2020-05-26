@@ -252,8 +252,8 @@ proc/slur(phrase)
 		phrase = copytext(phrase, 1, index) + "ÿ" + copytext(phrase, index+1)
 		index = findtext(phrase, "&#255;")
 	var
-		leng=lentext(phrase)
-		counter=lentext(phrase)
+		leng=length(phrase)
+		counter=length(phrase)
 		newphrase=""
 		newletter=""
 

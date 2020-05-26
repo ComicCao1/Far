@@ -63,7 +63,7 @@ obj/machinery/nanosprayer/proc/update_temp()
 
 obj/machinery/nanosprayer/process()
 	src.time_started = world.time
-	totalpoints = lentext(payload) * rand(5,10)
+	totalpoints = length(payload) * rand(5,10)
 	if(!totalpoints)
 		totalpoints = 1
 	while(src.state == 1)
