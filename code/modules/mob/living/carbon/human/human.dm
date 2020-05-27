@@ -79,6 +79,7 @@
 	prev_gender = gender // Debug for plural genders
 	make_blood()
 	init_skills()
+	show_cone()
 
 /mob/living/carbon/human/Bump(atom/movable/AM as mob|obj, yes)
 	if ((!( yes ) || now_pushing))

@@ -294,6 +294,12 @@
 	mymob.toxin.name = "toxin"
 	mymob.toxin.screen_loc = ui_toxin
 
+	mymob.fov = new /obj/screen/fov()
+	mymob.fov.icon = 'icons/mob/hide.dmi'
+	mymob.fov.icon_state = "combat"
+	mymob.fov.name = " "
+	mymob.fov.screen_loc = ui_fov
+
 	mymob.internals = new /obj/screen()
 	mymob.internals.icon = ui_style
 	mymob.internals.icon_state = "internal0"

@@ -777,6 +777,10 @@ note dizziness decrements automatically in the mob's Life() proc.
         if(update_icon) //forces a full overlay update
                 update_icon = 0
                 regenerate_icons()
+        else if( lying != lying_prev )
+                update_icons()
+        update_vision_cone()
+
         return canmove
 
 
