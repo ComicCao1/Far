@@ -66,44 +66,44 @@
 		// otherwise, business as usual
 
 		// let's conjugate this mess
-		conjugated = copytext(input_line, 1 + keypos + lentext(keyphrase))
+		conjugated = copytext(input_line, 1 + keypos + length(keyphrase))
 
 		// go ahead and strip punctuation
-		if(lentext(conjugated) > 0 && copytext(conjugated, lentext(conjugated)) == " ")
-			conjugated = copytext(conjugated, 1, lentext(conjugated))
-		if(lentext(conjugated) > 0)
-			var/final_punc = copytext(conjugated, lentext(conjugated))
+		if(length(conjugated) > 0 && copytext(conjugated, length(conjugated)) == " ")
+			conjugated = copytext(conjugated, 1, length(conjugated))
+		if(length(conjugated) > 0)
+			var/final_punc = copytext(conjugated, length(conjugated))
 			if(final_punc == "." || final_punc == "?" || final_punc == "!")
-				conjugated = copytext(conjugated, 1, lentext(conjugated))
+				conjugated = copytext(conjugated, 1, length(conjugated))
 
 		conjugated += " "
 
 		if(keyword.conjugate)
 			// now run through conjugation pairs
-			for(var/i = 1, i <= lentext(conjugated), i++)
+			for(var/i = 1, i <= length(conjugated), i++)
 				for(var/x = 1, x <= conjugs.len, x += 2)
 					var/cx = conjugs[x]
 					var/cxa = conjugs[x + 1]
-					if(i + lentext(cx) <= lentext(conjugated) + 1 && cmptext(cx, copytext(conjugated, i, i + lentext(cx))))
+					if(i + length(cx) <= length(conjugated) + 1 && cmptext(cx, copytext(conjugated, i, i + length(cx))))
 						// world << cx
 
-						conjugated = copytext(conjugated, 1, i) + cxa + copytext(conjugated, i + lentext(cx))
-						i = i + lentext(cx)
+						conjugated = copytext(conjugated, 1, i) + cxa + copytext(conjugated, i + length(cx))
+						i = i + length(cx)
 						// don't count right padding
-						if(copytext(cx, lentext(cx)) == " ")
+						if(copytext(cx, length(cx)) == " ")
 							i--
 						break
-					else if(i + lentext(cxa) <= lentext(conjugated) + 1 && cmptext(cxa, copytext(conjugated, i, i + lentext(cxa))))
+					else if(i + length(cxa) <= length(conjugated) + 1 && cmptext(cxa, copytext(conjugated, i, i + length(cxa))))
 						// world << cxa
 
-						conjugated = copytext(conjugated, 1, i) + cx + copytext(conjugated, i + lentext(cxa))
-						i = i + lentext(cxa)
+						conjugated = copytext(conjugated, 1, i) + cx + copytext(conjugated, i + length(cxa))
+						i = i + length(cxa)
 						// don't count right padding
-						if(copytext(cxa, lentext(cxa)) == " ")
+						if(copytext(cxa, length(cxa)) == " ")
 							i--
 						break
 
-		conjugated = copytext(conjugated, 1, lentext(conjugated))
+		conjugated = copytext(conjugated, 1, length(conjugated))
 
 	//world << "Conj: " + conjugated
 
@@ -127,21 +127,21 @@
 		eliza.yesno_state = ""
 		eliza.yesno_param = ""
 		var/reply = pick(replies)
-		if(copytext(reply, lentext(reply)) == "*")
+		if(copytext(reply, length(reply)) == "*")
 			// add object of statement (hopefully not actually mess :p)
 			if(object == "")
 				object = pick(generic_objects)
 			// possibly add name or just ?
 			if(eliza.username != "" && rand(3) == 0)
 				object += ", " + eliza.username
-			return copytext(reply, 1, lentext(reply)) + object + "?"
+			return copytext(reply, 1, length(reply)) + object + "?"
 		else
 			// get punct
 			var/final_punc = ""
-			if(lentext(reply) > 0)
-				final_punc = copytext(reply, lentext(reply))
+			if(length(reply) > 0)
+				final_punc = copytext(reply, length(reply))
 				if(final_punc == "." || final_punc == "?" || final_punc == "!")
-					reply = copytext(reply, 1, lentext(reply))
+					reply = copytext(reply, 1, length(reply))
 				else
 					final_punc = ""
 

@@ -1187,7 +1187,7 @@ obj/item/weapon/organ/head
 	max_amount = 32
 	gender = PLURAL
 	desc = "Welp. Someone had their teeth knocked out."
-	icon = 'icons/obj/surgeryy.dmi'
+	icon = 'icons/obj/surgery.dmi'
 	icon_state = "tooth1"
 /obj/item/stack/teeth/New()
 	..()
