@@ -156,6 +156,13 @@
 	var/selecting = "chest"
 
 
+/obj/screen/fov
+	icon = 'icons/mob/hide.dmi'
+	icon_state = "combat"
+	name = " "
+	screen_loc = ui_fov
+	layer = 18
+
 /obj/screen/zone_sel/Click(location, control,params)
 	var/list/PL = params2list(params)
 	var/icon_x = text2num(PL["icon-x"])

@@ -71,6 +71,7 @@
 #define ui_fire "EAST+1, NORTH-8"
 #define ui_oxygen "EAST+1, NORTH-4"
 #define ui_pressure "EAST+1, NORTH-3"
+#define ui_fov "1,1"
 
 #define ui_alien_toxin "14:28,13:25"
 #define ui_alien_fire "14:28,12:25"

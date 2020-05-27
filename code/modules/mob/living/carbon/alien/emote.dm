@@ -102,6 +102,7 @@
 		if("hiss_")
 			message = "<B>The [src.name]</B> hisses softly."
 			m_type = 1
+			//SHIT AND PISS NEW EMOTES
 		if("collapse")
 			Paralyse(2)
 			message = text("<B>[]</B> collapses!", src)

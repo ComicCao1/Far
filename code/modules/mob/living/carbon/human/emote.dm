@@ -155,6 +155,14 @@
 			message = "<B>[src]</B> twitches violently."
 			m_type = 1
 
+		if("poo")
+			src.handle_shit()
+			m_type = 1
+
+		if("pee")
+			src.handle_piss()
+			m_type = 1
+
 		if ("twitch_s")
 			message = "<B>[src]</B> twitches."
 			m_type = 1
@@ -861,7 +869,7 @@
 			m_type = 1
 
 		if ("help")
-			src << "blink, blink_r, blush, bow-(none)/mob, burp, choke, chuckle, clap, collapse, cough,\ncry, custom, deathgasp, drool, eyebrow, frown, gasp, giggle, groan, grumble, handshake, hug-(none)/mob, glare-(none)/mob,\ngrin, laugh, elaugh, look-(none)/mob, moan, mumble, nod, pale, point-atom, raise, salute, shake, shiver, shrug,\nsigh, signal-#1-10, smile, sneeze, sniff, snore, stare-(none)/mob, tremble, twitch, vomit, twitch_s, whimper,\nwink, yawn. For custom emotes use '*emote.'"
+			src << "blink, blink_r, blush, bow-(none)/mob, burp, choke, chuckle, clap, collapse, cough,\ncry, custom, deathgasp, drool, eyebrow, frown, gasp, giggle, groan, grumble, handshake, hug-(none)/mob, glare-(none)/mob,\ngrin, laugh, elaugh, look-(none)/mob, moan, mumble, nod, pale, point-atom, raise, salute, shake, shiver, shrug,\nsigh, signal-#1-10, smile, sneeze, sniff, snore, stare-(none)/mob, tremble, twitch, vomit, twitch_s, poo, pee, whimper,\nwink, yawn. For custom emotes use '*emote.'"
 
 		else
 			message = "<B>[src]</B> [sanitize(act)]"

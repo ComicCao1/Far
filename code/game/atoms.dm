@@ -246,6 +246,13 @@ its easier to just keep the beam vertical.
 /atom/proc/relaymove()
 	return
 
+/atom/proc/set_dir(new_dir)
+	var/old_dir = dir
+	if(new_dir == old_dir)
+		return FALSE
+	dir = new_dir
+	return TRUE
+
 /atom/proc/ex_act()
 	return
 

@@ -61,6 +61,10 @@
 	reagents = R
 	R.my_atom = src
 	add_teeth()
+
+	bladder = rand(0,100)
+	bowels = rand(0, 100)
+
 	if(!dna)
 		dna = new /datum/dna(null)
 
@@ -75,6 +79,7 @@
 	prev_gender = gender // Debug for plural genders
 	make_blood()
 	init_skills()
+	show_cone()
 
 /mob/living/carbon/human/Bump(atom/movable/AM as mob|obj, yes)
 	if ((!( yes ) || now_pushing))
