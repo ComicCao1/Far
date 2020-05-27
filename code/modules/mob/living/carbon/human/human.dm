@@ -61,6 +61,10 @@
 	reagents = R
 	R.my_atom = src
 	add_teeth()
+
+	bladder = rand(0,100)
+	bowels = rand(0, 100)
+
 	if(!dna)
 		dna = new /datum/dna(null)
 
