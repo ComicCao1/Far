@@ -1602,6 +1602,9 @@
 						if(!(M.status_flags & GODMODE))
 							M.adjustBruteLoss(5)
 						nutrition += 10
+						bladder += 2
+						bowels += 2
+		handle_excrement()
 
 	proc/handle_changeling()
 		if(mind && mind.changeling)
