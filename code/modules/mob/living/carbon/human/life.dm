@@ -1349,7 +1349,7 @@
 
 		else
 			sight &= ~(SEE_TURFS|SEE_MOBS|SEE_OBJS)
-			see_in_dark = species.darksight
+			see_in_dark = 0
 			see_invisible = see_in_dark>2 ? SEE_INVISIBLE_LEVEL_ONE : SEE_INVISIBLE_LIVING
 			if(dna)
 				switch(dna.mutantrace)

@@ -199,9 +199,9 @@
 	power_channel = LIGHT //Lights are calc'd via area so they dont need to be in the machine list
 	var/on = 0					// 1 if on, 0 if off
 	var/on_gs = 0
-	var/brightnessred = 8				// luminosity when on, also used in power calculation
-	var/brightnessgreen = 8
-	var/brightnessblue = 8
+	var/brightnessred = 4				// luminosity when on, also used in power calculation
+	var/brightnessgreen = 4
+	var/brightnessblue = 4
 	var/redalert = 1
 
 	var/status = LIGHT_OK		// LIGHT_OK, _EMPTY, _BURNED or _BROKEN
@@ -219,8 +219,8 @@
 	icon_state = "bulb1"
 	base_state = "bulb"
 	fitting = "bulb"
-	brightnessred = 5
-	brightnessgreen = 5
+	brightnessred = 4
+	brightnessgreen = 4
 	brightnessblue = 4
 	desc = "A small lighting fixture."
 	light_type = /obj/item/weapon/light/bulb
@@ -233,7 +233,7 @@
 	icon_state = "firelight1"
 	base_state = "firelight"
 	fitting = "bulb"
-	brightnessred = 5
+	brightnessred = 4
 	brightnessgreen = 2
 	brightnessblue = 2
 	desc = "A small lighting fixture."
@@ -243,9 +243,9 @@
 	name = "spotlight"
 	fitting = "large tube"
 	light_type = /obj/item/weapon/light/tube/large
-	brightnessred = 10
-	brightnessgreen = 10
-	brightnessblue = 10
+	brightnessred = 4
+	brightnessgreen = 4
+	brightnessblue = 4
 
 /obj/machinery/light/built/New()
 	status = LIGHT_EMPTY
@@ -266,16 +266,17 @@
 	spawn(2)
 		switch(fitting)
 			if("tube")
-				var/br = pick(7,9)
+				var/br = pick(4,5)
 				brightnessred = br
 				brightnessgreen = br
 				brightnessblue = br
 				if(prob(2))
 					broken(1)
 			if("bulb")
-				brightnessred = 5
-				brightnessgreen = 5
-				brightnessblue = 4
+				var/br = pick(4,5)
+				brightnessred = br
+				brightnessgreen = br
+				brightnessblue = br
 
 				if(prob(5))
 					broken(1)
@@ -728,9 +729,9 @@
 	base_state = "ltube"
 	item_state = "c_tube"
 	g_amt = 100
-	brightnessred = 8	//how much light it gives off
-	brightnessgreen = 8
-	brightnessblue = 8
+	brightnessred = 4	//how much light it gives off
+	brightnessgreen = 4
+	brightnessblue = 4
 
 
 
@@ -787,12 +788,12 @@
 	..()
 	switch(name)
 		if("light tube")
-			brightnessred = 8
-			brightnessgreen = 8
-			brightnessblue = 8
+			brightnessred = 4
+			brightnessgreen = 4
+			brightnessblue = 4
 		if("light bulb")
-			brightnessred = 5
-			brightnessgreen = 5
+			brightnessred = 4
+			brightnessgreen = 4
 			brightnessblue = 4
 	update()
 
